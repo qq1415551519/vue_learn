@@ -4,8 +4,10 @@
         <div class="user-info">
           <ImageView
           src="http://api.myphp.vip/bizhi001.png"
-          height="200px;"
+          height="50px;"
+          width="50px;"
           mode="scaleToFill"
+          round
           ></ImageView>
         </div>
         <div class="book-info">2019</div>
