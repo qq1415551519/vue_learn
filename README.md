@@ -1,10 +1,32 @@
-````
-imooc book
-````
 
 # mpvue-imooc-book-init
 
-> A Mpvue project
+> 第一步，基于mpvue-quickstart模板创建新项目
+
+````vue2
+npm install -g cnpm --registry=https://registry.npm.taobao.org【淘宝镜像】
+
+cnpm install -g @vue/cli          [安装脚手架]
+
+vue init mpvue/mpvue-quickstart my-project
+````
+> 第二步，安装依赖和运行
+````vue2
+cd my-project
+
+npm install
+
+npm run dev
+````
+> 安装scss依赖
+
+````vue3
+"sass-loader": "^6.0.7",
+
+cnpm i sass-loader@6.x --save-dev
+````
+
+淘宝领取优惠券地址： [https://myphp.vip](https://myphp.vip) 
 
 ## Build Setup
 
@@ -38,4 +60,4 @@ npm build:my
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
