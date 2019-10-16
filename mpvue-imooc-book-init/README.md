@@ -1,3 +1,7 @@
+````
+imooc book
+````
+
 # mpvue-imooc-book-init
 
 > A Mpvue project
