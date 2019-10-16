@@ -9,6 +9,10 @@
     <!--读书卡片组件-->
     <HomeCard></HomeCard>
     <!--图片-->
+    <HomeBanner
+      img="http://www.youbaobao.xyz/book/res/bg.jpg"
+      title="标题"
+    ></HomeBanner>
   </div>
 </template>
 
@@ -17,8 +21,10 @@
   import ImageView from '../../components/base/imageView'
   import { post } from '@/utils/request'
   import HomeCard from '../../components/home/HomeCard'
+  import HomeBanner from '../../components/home/HomeBanner'
   export default {
     components: {
+      HomeBanner,
       HomeCard,
       SearchBar,
       ImageView
